@@ -22,4 +22,6 @@ while k >= 1:
     while nk >= 1:
     wynik_nk.append(nk)
     nk = nk-1
+
+print(int(newton))
     
