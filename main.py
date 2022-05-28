@@ -19,9 +19,15 @@ while k >= 1:
     wynik_k.append(k)
     k = k-1
 
-    while nk >= 1:
+while nk >= 1:
     wynik_nk.append(nk)
     nk = nk-1
+
+silnia_n = math.prod(wynik_n)
+silnia_k = math.prod(wynik_k)
+silnia_nk = math.prod(wynik_nk)
+
+newton = (silnia_n/(silnia_k*silnia_nk))
 
 print(int(newton))
     
